@@ -4,6 +4,7 @@ project "freetype"
     staticruntime "on"
     systemversion "latest"
 	warnings "off"
+    linkoptions { "-IGNORE:4006", "-IGNORE:4099" }
 
 	
 	files {
